@@ -3,3 +3,4 @@ Repositorio para la materia Ingeniería de Software III - Actualidad Informátic
 Britto Fernando Nicolas
 Daubermann Marcos Isaias
 Escalada Luciano Arturo
+Maidana Julio Alberto
