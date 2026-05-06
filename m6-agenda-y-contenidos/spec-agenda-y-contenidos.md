@@ -45,7 +45,7 @@ Alimenta de información al **M2 (Catálogo y Descubrimiento)** para mostrar el 
 - [ ] Puedo definir el rol específico del usuario en esa actividad ("TITULAR", "CO-AUTOR", "MODERADOR").
 - [ ] Un disertante puede estar asignado a múltiples actividades en el mismo evento.
 
-### HU-03 — Visualización pública de la Agenda
+### AGD-HU-03 — Visualización pública de la Agenda
 **Como** Participante o visitante anónimo,
 **quiero** ver el cronograma completo de un evento ordenado cronológicamente,
 **para** planificar mi asistencia.
