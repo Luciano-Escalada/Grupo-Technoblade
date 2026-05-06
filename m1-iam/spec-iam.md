@@ -27,7 +27,7 @@ Es el **primer punto de interacción** para cualquier usuario que necesite inter
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Registro de nuevo participante
+### IAM-HU-01 — Registro de nuevo participante
 
 **Como** persona interesada en los eventos académicos,
 **quiero** registrarme en la plataforma con mis datos personales,
@@ -41,7 +41,7 @@ Es el **primer punto de interacción** para cualquier usuario que necesite inter
 - [ ] Al crearse la cuenta, se le asigna automáticamente el rol `PARTICIPANTE`.
 - [ ] El registro exitoso crea el registro en la tabla compartida `Usuario` y devuelve un código 201.
 
-### HU-02 — Inicio de sesión y generación de token
+### IAM-HU-02 — Inicio de sesión y generación de token
 
 **Como** usuario registrado,
 **quiero** iniciar sesión con mi email y contraseña,
@@ -53,7 +53,7 @@ Es el **primer punto de interacción** para cualquier usuario que necesite inter
 - [ ] Si la contraseña o el email son incorrectos, devuelve un error 400 genérico ("Credenciales inválidas") para no exponer qué dato falló.
 - [ ] El token generado incluye el `usuarioId` y la lista de roles del usuario en su payload.
 
-### HU-03 — Asignación de rol Disertante
+### IAM-HU-03 — Asignación de rol Disertante
 
 **Como** Organizador,
 **quiero** asignarle el rol de Disertante a un usuario registrado existente,

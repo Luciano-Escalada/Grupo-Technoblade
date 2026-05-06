@@ -27,7 +27,7 @@ Este módulo actúa en la etapa final del ciclo de vida de un evento. Se activa 
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Habilitación automática de encuestas
+### REP-HU-01 — Habilitación automática de encuestas
 **Como** sistema,
 **quiero** habilitar el formulario de feedback cuando un evento finaliza,
 **para que** los asistentes puedan evaluar su experiencia inmediatamente.
@@ -36,7 +36,7 @@ Este módulo actúa en la etapa final del ciclo de vida de un evento. Se activa 
 - [ ] El módulo debe exponer el endpoint `POST /api/feedback/eventos/habilitar-encuesta` según el contrato EVT-02.
 - [ ] Al recibir la notificación, el sistema registra que las encuestas para ese `eventoId` están abiertas.
 
-### HU-02 — Envío de feedback por el participante
+### REP-HU-02 — Envío de feedback por el participante
 **Como** participante acreditado,
 **quiero** completar una encuesta de satisfacción sobre un evento finalizado,
 **para que** los organizadores conozcan mi opinión.
@@ -47,7 +47,7 @@ Este módulo actúa en la etapa final del ciclo de vida de un evento. Se activa 
 - [ ] Puedo calificar el evento del 1 al 5 y dejar un comentario de texto libre.
 - [ ] No puedo enviar más de una respuesta para el mismo evento.
 
-### HU-03 — Visualización de reportes
+### REP-HU-03 — Visualización de reportes
 **Como** organizador,
 **quiero** ver las estadísticas de satisfacción de mi evento,
 **para que** pueda medir la calidad de la propuesta académica.

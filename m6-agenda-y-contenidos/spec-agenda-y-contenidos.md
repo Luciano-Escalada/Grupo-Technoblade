@@ -25,7 +25,7 @@ Alimenta de información al **M2 (Catálogo y Descubrimiento)** para mostrar el 
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Gestión del cronograma por el Organizador
+### AGD-HU-01 — Gestión del cronograma por el Organizador
 **Como** Organizador,
 **quiero** crear, editar y eliminar actividades (charlas, breaks, paneles) dentro de las fechas de un evento,
 **para** armar la agenda oficial que verán los participantes.
@@ -35,7 +35,7 @@ Alimenta de información al **M2 (Catálogo y Descubrimiento)** para mostrar el 
 - [ ] El sistema valida que la fecha/hora de la actividad esté estrictamente dentro de los límites de `fechaInicio` y `fechaFin` del `Evento`.
 - [ ] El sistema muestra una advertencia (pero permite guardar) si hay solapamiento de horarios en la misma ubicación.
 
-### HU-02 — Asignación de Disertantes
+### AGD-HU-02 — Asignación de Disertantes
 **Como** Organizador,
 **quiero** asignar usuarios con el rol de Disertante a las actividades de la agenda,
 **para** que el público sepa quién imparte cada sesión.

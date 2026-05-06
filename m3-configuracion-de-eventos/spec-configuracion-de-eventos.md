@@ -24,7 +24,7 @@ Es el pilar estructural de la plataforma. El ciclo de vida de cualquier activida
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Creación y configuración inicial del evento
+### CFG-HU-01 — Creación y configuración inicial del evento
 **Como** Organizador,
 **quiero** crear un nuevo evento definiendo su tipo, fechas de realización, cupos y ventana de inscripciones,
 **para que** la plataforma tenga la base estructural necesaria para recibir participantes.
@@ -36,7 +36,7 @@ Es el pilar estructural de la plataforma. El ciclo de vida de cualquier activida
 - [ ] El cupo máximo (si se define) debe ser obligatoriamente mayor o igual al cupo mínimo.
 - [ ] Al crearse, el evento asume automáticamente el estado "BORRADOR".
 
-### HU-02 — Publicación y finalización del evento
+### CFG-HU-02 — Publicación y finalización del evento
 **Como** Organizador,
 **quiero** cambiar el estado de mi evento a publicado o finalizado,
 **para que** el evento aparezca en el catálogo o se disparen las acciones post-evento.

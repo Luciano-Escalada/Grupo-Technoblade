@@ -29,7 +29,7 @@ El M5 actúa como un puente operativo el día del evento.
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Acreditación manual de un participante
+### ACRE-HU-01 — Acreditación manual de un participante
 **Como** organizador en la puerta del evento,
 **quiero** buscar a un participante por su email, nombre o DNI y marcarlo como presente,
 **para que** su asistencia quede registrada oficialmente.
@@ -41,7 +41,7 @@ El M5 actúa como un puente operativo el día del evento.
 - [ ] Solo los participantes con estado de inscripción `CONFIRMADA` (según M4) pueden ser acreditados.
 - [ ] Al concretarse la acreditación, el sistema debe disparar asincrónicamente el evento `EVT-01` hacia el M7.
 
-### HU-02 — Monitor de aforo en tiempo real
+### ACRE-HU-02 — Monitor de aforo en tiempo real
 **Como** organizador,
 **quiero** ver un resumen numérico en la pantalla de check-in (ej. "Acreditados: 45 / Inscriptos: 100"),
 **para** saber cuánta gente falta llegar.

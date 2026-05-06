@@ -24,7 +24,7 @@ Es el puente entre el Catálogo de Eventos (M2) y la Logística/Acreditación (M
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Inscripción autónoma del participante
+### INS-HU-01 — Inscripción autónoma del participante
 **Como** usuario autenticado en el rol de Participante,
 **quiero** inscribirme a un evento académico publicado,
 **para que** mi lugar quede reservado y pueda asistir.
@@ -35,7 +35,7 @@ Es el puente entre el Catálogo de Eventos (M2) y la Logística/Acreditación (M
 - [ ] Un usuario no puede inscribirse dos veces al mismo evento.
 - [ ] Al finalizar, la inscripción queda en estado `CONFIRMADA` (si es de registro directo) o `PENDIENTE` (si requiere aprobación manual).
 
-### HU-02 — Inscripción manual por el organizador
+### INS-HU-02 — Inscripción manual por el organizador
 **Como** Organizador,
 **quiero** buscar a un usuario registrado e inscribirlo manualmente en un evento de mi competencia,
 **para que** pueda garantizar la asistencia de invitados especiales o resolver problemas operativos.
