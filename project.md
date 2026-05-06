@@ -1,5 +1,13 @@
 # Project
 
+Contenido:
+- Stack
+- Convenciones de código
+- estrucra de direcrios (framework generalmente)
+- modelos (compartidos o generales)
+- dependencias (versiones)
+- (si es una API formatos de respuestas y requests)
+
 
 ## 1. Descripción del sistema
 El producto a desarrollar es un software de organización y gestión de eventos académicos. Permite que grupos de personas puedan organizar eventos de tipo académico (cursos, jornadas, congresos, charlas, etc). Se requiere contar con una interfaz accesible desde la web para facilitar su uso desde cualquier dispositivo.
