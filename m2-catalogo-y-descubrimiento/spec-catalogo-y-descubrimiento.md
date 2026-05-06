@@ -27,7 +27,7 @@ Es un módulo principalmente de **lectura** que consume los datos generados por 
 
 ## 2. Historias de Usuario y Criterios de Aceptación
 
-### HU-01 — Listado y Descubrimiento de Eventos
+### CAT-HU-01 — Listado y Descubrimiento de Eventos
 
 **Como** visitante de la plataforma,
 **quiero** ver un listado de los próximos eventos académicos disponibles,
@@ -39,7 +39,7 @@ Es un módulo principalmente de **lectura** que consume los datos generados por 
 - [ ] Cada tarjeta de evento muestra: título, tipo, fechas de inicio/fin y un indicador visual si quedan cupos disponibles (derivado del `cupoMaximo` y las inscripciones activas).
 - [ ] La lista debe estar paginada u ofrecer scroll infinito (20 ítems por página).
 
-### HU-02 — Búsqueda y Filtrado
+### CAT-HU-02 — Búsqueda y Filtrado
 
 **Como** visitante o participante,
 **quiero** buscar eventos por palabras clave y filtrarlos por tipo y fecha,

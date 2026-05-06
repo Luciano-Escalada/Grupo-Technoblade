@@ -27,7 +27,7 @@ Este módulo es dependiente de las acciones que ocurren en los módulos M5 (Log�
 
 ## 2. Historias de Usuario y Criterios de Aceptación
  
-### HU-01 — Configuración de plantilla por el Organizador
+### CERT-HU-01 — Configuración de plantilla por el Organizador
 **Como** organizador del evento,
 **quiero** configurar el texto base y la imagen de fondo del certificado,
 **para que** los documentos generados tengan la identidad visual y firmas oficiales del evento.
@@ -37,7 +37,7 @@ Este módulo es dependiente de las acciones que ocurren en los módulos M5 (Log�
 - [ ] Puedo definir un bloque de texto que acepte variables de reemplazo dinámico (ej: `{{nombre_completo}}`, `{{titulo_evento}}`, `{{fecha}}`).
 - [ ] Puedo guardar la configuración y generar una previsualización de prueba.
 
-### HU-02 — Pre-generación automática por Acreditación
+### CERT-HU-02 — Pre-generación automática por Acreditación
 **Como** sistema (integración con M5),
 **quiero** solicitar la generación en background del certificado de asistencia en el momento que un participante se acredita,
 **para que** el PDF esté listo inmediatamente cuando el participante intente descargarlo.
@@ -46,7 +46,7 @@ Este módulo es dependiente de las acciones que ocurren en los módulos M5 (Log�
 - [ ] El endpoint de webhook `POST /api/certificacion/generar/asistencia` recibe la notificación (EVT-01) e inicia el proceso asíncrono o en lote de generación de PDF.
 - [ ] El sistema valida con M5 (`GET /api/acreditacion/evento/:eventoId/asistentes`) que el usuario realmente esté acreditado antes de guardar el certificado definitivo.
 
-### HU-03 — Descarga del certificado por el Participante
+### CERT-HU-03 — Descarga del certificado por el Participante
 **Como** participante,
 **quiero** acceder a mi perfil y descargar el certificado de un evento finalizado al que asistí,
 **para que** pueda presentarlo en mi currículum o institución.
