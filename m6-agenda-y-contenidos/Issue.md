@@ -1,1 +1,1 @@
-Archivo ejemplo para simular in progress del issue
+Archivo ejemplo para simular in progress del issue.
